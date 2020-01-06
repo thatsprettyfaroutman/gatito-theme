@@ -1,6 +1,6 @@
 const chroma = require('chroma-js')
 
-const BLACK = "#000"
+const BLACK = "#000000"
 const RED = "#E15A60"
 const ORANGE = "#F99157"
 const GREEN = "#99C794"
@@ -12,48 +12,50 @@ const GRAY = "#444"
 const WHITE = "#fff"
 
 
+const mute = color => chroma(color).alpha(0.3).hex()
+const ghost = color => chroma(color).alpha(0.2).hex()
 
 module.exports = {
   transparent: "#FFFFFF00",
   border: BLACK,
 
-  background: BLACK,
+  background: chroma(BLACK).brighten(0.25).hex(),
   backgroundLight: chroma(BLACK).brighten().hex(),
 
   foreground: WHITE,
-  foregroundMuted: chroma(WHITE).alpha(0.3).hex(),
-  foregroundGhosted: chroma(WHITE).alpha(0.2).hex(),
+  foregroundMuted: mute(WHITE),
+  foregroundGhosted: ghost(WHITE),
 
 
 
   black: BLACK,
-  blackMuted: chroma(BLACK).alpha(0.3).hex(),
+  blackMuted: mute(BLACK),
 
   red: RED,
-  redMuted: chroma(RED).alpha(0.3).hex(),
+  redMuted: mute(RED),
 
   orange: ORANGE,
-  orangeMuted: chroma(ORANGE).alpha(0.3).hex(),
+  orangeMuted: mute(ORANGE),
 
   green: GREEN,
-  greenMuted: chroma(GREEN).alpha(0.3).hex(),
+  greenMuted: mute(GREEN),
 
   yellow: YELLOW,
-  yellowMuted: chroma(YELLOW).alpha(0.3).hex(),
+  yellowMuted: mute(YELLOW),
 
   blue: BLUE,
-  blueMuted: chroma(BLUE).alpha(0.3).hex(),
+  blueMuted: mute(BLUE),
 
   magenta: MAGENTA,
-  magentaMuted: chroma(MAGENTA).alpha(0.3).hex(),
+  magentaMuted: mute(MAGENTA),
 
   cyan: CYAN,
-  cyanMuted: chroma(CYAN).alpha(0.3).hex(),
+  cyanMuted: mute(CYAN),
 
   gray: GRAY,
-  grayMuted: chroma(GRAY).alpha(0.3).hex(),
+  grayMuted: mute(GRAY),
 
   white: WHITE,
-  whiteMuted: chroma(WHITE).alpha(0.3).hex()
+  whiteMuted: mute(WHITE)
 
 };

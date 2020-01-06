@@ -29,7 +29,7 @@ module.exports = {
   "editorRuler.foreground": theme.foregroundGhosted,
   "editorCodeLens.foreground": theme.backgroundLight,
   "editorBracketMatch.background": theme.transparent,
-  "editorBracketMatch.border": theme.foregroundMuted,
+  "editorBracketMatch.border": theme.backgroundLight,
   "editorOverviewRuler.border": theme.background,
   // "editor.stackFrameHighlightBackground": "red",
   // "editor.focusedStackFrameHighlightBackground": "red",
