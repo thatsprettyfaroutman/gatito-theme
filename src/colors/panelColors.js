@@ -5,8 +5,8 @@ const theme = require("../theme");
 
 module.exports = {
   "panel.background": theme.background,
-  "panel.border": "#30373A",
-  "panelTitle.activeBorder": "#30373A",
+  "panel.border": theme.border,
+  "panelTitle.activeBorder": theme.border,
   "panelTitle.activeForeground": theme.foreground,
-  "panelTitle.inactiveForeground": theme.foregroundDark
+  "panelTitle.inactiveForeground": theme.backgroundLight
 };

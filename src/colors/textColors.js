@@ -4,7 +4,7 @@ const theme = require("../theme");
 // https://code.visualstudio.com/docs/getstarted/theme-color-reference#text-colors
 
 module.exports = {
-  "textBlockQuote.background": theme.backgroundDark,
+  "textBlockQuote.background": theme.background,
   "textBlockQuote.border": theme.backgroundLight,
   "textCodeBlock.background": "#f00",
   "textLink.activeForeground": theme.blue,

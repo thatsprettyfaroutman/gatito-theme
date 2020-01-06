@@ -3,7 +3,7 @@ const colors = require("./colors");
 const tokenColors = require("./tokenColors");
 
 const theme = {
-  name: "Gatito Theme",
+  name: "My Cool Theme",
   colors: {
     ...colors.baseColors,
     ...colors.textColors,
@@ -38,7 +38,7 @@ const theme = {
   tokenColors
 };
 
-fs.writeFile("dist/gatito-theme.json", JSON.stringify(theme), error => {
+fs.writeFile("dist/my-cool-theme.json", JSON.stringify(theme), error => {
   const log = error
     ? {
         method: "error",

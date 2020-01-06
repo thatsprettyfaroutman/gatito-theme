@@ -4,9 +4,9 @@ const theme = require("../theme");
 // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_git-colors
 
 module.exports = {
-  "gitDecoration.modifiedResourceForeground": theme.blue,
+  "gitDecoration.modifiedResourceForeground": theme.yellow,
   "gitDecoration.deletedResourceForeground": theme.red,
   "gitDecoration.untrackedResourceForeground": theme.green,
-  "gitDecoration.ignoredResourceForeground": theme.foregroundDark,
+  "gitDecoration.ignoredResourceForeground": theme.backgroundLight,
   "gitDecoration.conflictingResourceForeground": theme.red
 };

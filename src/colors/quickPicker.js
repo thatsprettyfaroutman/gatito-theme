@@ -4,6 +4,6 @@ const theme = require("../theme");
 // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_quick-picker
 
 module.exports = {
-  "pickerGroup.border": "#30373A",
-  "pickerGroup.foreground": theme.foregroundDark
+  "pickerGroup.border": theme.border,
+  "pickerGroup.foreground": theme.backgroundLight
 };

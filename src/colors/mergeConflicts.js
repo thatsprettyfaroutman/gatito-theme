@@ -4,11 +4,11 @@ const theme = require("../theme");
 // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_merge-conflicts
 
 module.exports = {
-  "merge.currentHeaderBackground": theme.backgroundDark,
-  "merge.currentContentBackground": theme.backgroundDark,
-  "merge.incomingHeaderBackground": theme.backgroundDark,
-  "merge.incomingContentBackground": theme.backgroundDark,
-  "merge.border": "#30373A",
-  "editorOverviewRuler.currentContentForeground": "#A94348",
-  "editorOverviewRuler.incomingContentForeground": "#A94348"
+  "merge.currentHeaderBackground": theme.background,
+  "merge.currentContentBackground": theme.background,
+  "merge.incomingHeaderBackground": theme.background,
+  "merge.incomingContentBackground": theme.background,
+  "merge.border": theme.transparent,
+  "editorOverviewRuler.currentContentForeground": theme.redMuted,
+  "editorOverviewRuler.incomingContentForeground": theme.redMuted
 };

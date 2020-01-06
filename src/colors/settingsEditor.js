@@ -6,16 +6,16 @@ const theme = require("../theme");
 module.exports = {
   "settings.headerForeground": theme.foreground,
   "settings.modifiedItemIndicator": theme.blue,
-  "settings.dropdownBackground": theme.backgroundDark,
+  "settings.dropdownBackground": theme.background,
   "settings.dropdownForeground": theme.foreground,
-  "settings.dropdownBorder": "#30373A",
-  "settings.checkboxBackground": theme.backgroundDark,
+  "settings.dropdownBorder": theme.border,
+  "settings.checkboxBackground": theme.background,
   "settings.checkboxForeground": theme.foreground,
-  "settings.checkboxBorder": "#30373A",
-  "settings.textInputBackground": theme.backgroundDark,
+  "settings.checkboxBorder": theme.border,
+  "settings.textInputBackground": theme.background,
   "settings.textInputForeground": theme.foreground,
-  "settings.textInputBorder": "#30373A",
-  "settings.numberInputBackground": theme.backgroundDark,
+  "settings.textInputBorder": theme.border,
+  "settings.numberInputBackground": theme.background,
   "settings.numberInputForeground": theme.foreground,
-  "settings.numberInputBorder": "#30373A"
+  "settings.numberInputBorder": theme.border
 };

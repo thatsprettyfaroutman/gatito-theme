@@ -1,13 +1,13 @@
 {
-  "name": "gatito-theme",
+  "name": "my-cool-theme",
   "version": "0.2.3",
-  "publisher": "pawelgrzybek",
-  "homepage": "https://pawelgrzybek.com/",
+  "publisher": "thatprettyfaroutman",
+  "homepage": "https://google.com/",
   "engines": {
     "vscode": "^1.14.0"
   },
   "license": "MIT",
-  "displayName": "Gatito Theme",
+  "displayName": "My Cool Theme",
   "description": "Minimalistic and modern looking fork of fantastic Oceanic theme.",
   "categories": [
     "Themes"
@@ -26,9 +26,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Gatito Theme",
+        "label": "My Cool Theme",
         "uiTheme": "vs-dark",
-        "path": "./dist/gatito-theme.json"
+        "path": "./dist/my-cool-theme.json"
       }
     ]
   },
@@ -37,21 +37,24 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pawelgrzybek/gatito-theme.git"
+    "url": "https://github.com/pawelgrzybek/my-cool-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/pawelgrzybek/gatito-theme/issues"
+    "url": "https://github.com/pawelgrzybek/my-cool-theme/issues"
   },
   "icon": "images/icon.png",
   "devDependencies": {
-    "eslint": "^6.1.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "prettier": "^1.18.2",
-    "watch": "^1.0.2"
+    "eslint": "6.1.0",
+    "eslint-config-prettier": "6.0.0",
+    "eslint-plugin-prettier": "3.1.0",
+    "prettier": "1.18.2",
+    "watch": "1.0.2"
   },
   "scripts": {
     "dev": "watch 'npm run build' ./src",
     "build": "node src/index.js"
+  },
+  "dependencies": {
+    "chroma-js": "2.1.0"
   }
 }

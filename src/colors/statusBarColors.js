@@ -5,14 +5,14 @@ const theme = require("../theme");
 
 module.exports = {
   "statusBar.background": theme.background,
-  "statusBar.foreground": theme.foregroundDark,
+  "statusBar.foreground": theme.backgroundLight,
   "statusBar.debuggingBackground": theme.background,
   "statusBar.debuggingForeground": theme.foreground,
-  "statusBar.noFolderForeground": theme.foregroundDark,
+  "statusBar.noFolderForeground": theme.backgroundLight,
   "statusBar.noFolderBackground": theme.background,
   "statusBarItem.activeBackground": theme.background,
   "statusBarItem.hoverBackground": theme.background,
   "statusBarItem.prominentBackground": theme.background,
   "statusBarItem.prominentHoverBackground": theme.background,
-  "statusBar.border": "#30373A"
+  "statusBar.border": theme.border
 };

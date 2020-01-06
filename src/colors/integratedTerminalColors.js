@@ -4,8 +4,8 @@ const theme = require("../theme");
 // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_integrated-terminal-colors
 
 module.exports = {
-  "terminal.ansiBlack": theme.foregroundDark,
-  "terminal.ansiBrightBlack": theme.foregroundDark,
+  "terminal.ansiBlack": theme.backgroundLight,
+  "terminal.ansiBrightBlack": theme.backgroundLight,
   "terminal.ansiRed": theme.red,
   "terminal.ansiBrightRed": theme.red,
   "terminal.ansiGreen": theme.green,
